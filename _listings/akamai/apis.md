@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/enrollment/master/_listings/akamai/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -30,10 +30,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: ""
   baseURL: https:///
-  tags: Enrollment
+  tags: Enrollments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/enrollment/master/_listings/akamai/cps-v2-enrollments-enrollmentid-deployments-production-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/cps-v2-enrollments-contractid-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com

@@ -33,7 +33,7 @@ apis:
   tags: Enrollments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/cps-v2-enrollments-enrollmentid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/cps-v2-enrollments-enrollmentid-deploy-not-before,deploy-not-after,allow-cancel-pending-changes-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com

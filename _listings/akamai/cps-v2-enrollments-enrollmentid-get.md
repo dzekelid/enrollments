@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get an Enrollment
+  description: Get an Enrollment
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Get an Enrollment
       operationId: cpsv2enrollmentsenrollmentid
       parameters:
-      - in: Number
+      - in: query
         name: enrollmentId
         description: Unique integer identifer for the enrollment
         type: string

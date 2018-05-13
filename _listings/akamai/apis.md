@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Enrollments
-  description: List Enrollments
+- name: Akamai API Get an Enrollment
+  description: Get an Enrollment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Enrollments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/cps-v2-enrollments-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enrollments/master/_listings/akamai/cps-v2-enrollments-enrollmentid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com

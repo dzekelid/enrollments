@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Change Status
+  description: Get Change Status
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Get Change Status
       operationId: cpsv2enrollmentsenrollmentidchangeschangeid
       parameters:
-      - in: Number
+      - in: query
         name: changeId
         description: Unique integer identifer for the change
         type: string
-      - in: Number
+      - in: query
         name: enrollmentId
         description: Unique integer identifer for the enrollment
         type: string
